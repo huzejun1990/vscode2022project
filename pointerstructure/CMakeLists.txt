@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.23)
+project(pointerstructure)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(01_defineanduse 01_defineanduse.cpp)
+add_executable(02_storage 02_storage.cpp)
+add_executable(03_nullpointer 03_nullpointer.cpp)
+add_executable(04_wildpointer 04_wildpointer.cpp)
+add_executable(05_constdecoratepointer 05_constdecoratepointer.cpp)
+add_executable(06_pointerandarr 06_pointerandarr.cpp)
+add_executable(07_pointerandfunction 07_pointerandfunction.cpp)
+add_executable(08_pointerarrfunction 08_pointerarrfunction.cpp)
